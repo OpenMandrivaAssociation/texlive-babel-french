@@ -1,11 +1,11 @@
-# revision 31136
+# revision 32256
 # category Package
 # catalog-ctan /macros/latex/contrib/babel-contrib/french
-# catalog-date 2013-07-08 01:07:26 +0200
+# catalog-date 2013-11-27 17:50:38 +0100
 # catalog-license lppl1.3
-# catalog-version 2.6e
+# catalog-version 2.6f
 Name:		texlive-babel-french
-Version:	2.6e
+Version:	2.6f
 Release:	1
 Summary:	Babel contributed support for French
 Group:		Publishing
@@ -21,8 +21,8 @@ Requires(post):	texlive-kpathsea
 
 %description
 The package establishes French conventions in a document (or a
-subset of the conventions, if the French is not the main
-language of the document).
+subset of the conventions, if French is not the main language
+of the document).
 
 %post
     %{_sbindir}/texlive.post
