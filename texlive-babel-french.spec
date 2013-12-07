@@ -6,7 +6,7 @@
 # catalog-version 2.6f
 Name:		texlive-babel-french
 Version:	2.6f
-Release:	2
+Release:	3
 Summary:	Babel contributed support for French
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/french
