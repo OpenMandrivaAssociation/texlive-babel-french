@@ -1,11 +1,11 @@
-# revision 32507
+# revision 33177
 # category Package
 # catalog-ctan /macros/latex/contrib/babel-contrib/french
-# catalog-date 2013-12-30 18:14:35 +0100
+# catalog-date 2014-03-14 11:39:25 +0100
 # catalog-license lppl1.3
-# catalog-version 2.6g
+# catalog-version 3.0b
 Name:		texlive-babel-french
-Version:	2.6g
+Version:	3.0b
 Release:	1
 Summary:	Babel contributed support for French
 Group:		Publishing
@@ -35,6 +35,7 @@ of the document).
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/generic/babel-french/frenchb.ldf
+%{_texmfdistdir}/tex/generic/babel-french/frenchb.lua
 %doc %{_texmfdistdir}/doc/generic/babel-french/frenchb.pdf
 #- source
 %doc %{_texmfdistdir}/source/generic/babel-french/frenchb.dtx
