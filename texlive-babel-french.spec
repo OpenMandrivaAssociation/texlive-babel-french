@@ -1,12 +1,12 @@
-# revision 33177
+# revision 33601
 # category Package
 # catalog-ctan /macros/latex/contrib/babel-contrib/french
-# catalog-date 2014-03-14 11:39:25 +0100
+# catalog-date 2014-04-21 12:35:03 +0200
 # catalog-license lppl1.3
-# catalog-version 3.0b
+# catalog-version 3.0c
 Name:		texlive-babel-french
-Version:	3.0b
-Release:	2
+Version:	3.0c
+Release:	1
 Summary:	Babel contributed support for French
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/french
