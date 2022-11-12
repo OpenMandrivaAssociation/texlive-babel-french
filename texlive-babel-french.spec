@@ -5,9 +5,9 @@ Summary:	Babel contributed support for French
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/french
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.r63116.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.doc.r63116.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.source.r63116.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
