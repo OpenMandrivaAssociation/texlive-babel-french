@@ -1,13 +1,13 @@
 Name:		texlive-babel-french
-Version:	3.5e
+Version:	63116
 Release:	1
 Summary:	Babel contributed support for French
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/french
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.r63116.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.doc.r63116.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.source.r63116.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -19,12 +19,12 @@ subset of the conventions, if French is not the main language
 of the document).
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -35,7 +35,8 @@ of the document).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
