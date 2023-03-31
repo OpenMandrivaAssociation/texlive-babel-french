@@ -1,6 +1,6 @@
 Name:		texlive-babel-french
 Version:	65000
-Release:	1
+Release:	2
 Summary:	Babel contributed support for French
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/french
