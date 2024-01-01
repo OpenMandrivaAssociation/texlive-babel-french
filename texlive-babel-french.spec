@@ -1,5 +1,5 @@
 Name:		texlive-babel-french
-Version:	66513
+Version:	69205
 Release:	1
 Summary:	Babel contributed support for French
 Group:		Publishing
