@@ -3,7 +3,7 @@ Version:	71907
 Release:	1
 Summary:	Babel contributed support for French
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/french
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/french
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/babel-french.doc.r%{version}.tar.xz
